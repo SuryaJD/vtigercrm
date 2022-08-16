@@ -13,4 +13,22 @@ function handleInventoryProductRel($entity){
 	updateInventoryProductRel($entity);
 }
 
-?>
+if (! function_exists('HandleNotify')) {
+	function HandleNotify($entity) {		
+
+		$ch = curl_init('http://crmapi.test/api/v1/webhook');
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+		curl_setopt($ch, CURLOPT_POSTFIELDS, [
+			'module'	=> $entity->getModuleName(),
+			'moduleId'  => $entity->getId(),
+			'actor' 	=> $entity->user->id,
+			'data'		=> json_encode($entity->getData()),		
+		]);
+
+		// // execute!
+		$response = curl_exec($ch);
+
+		// // close the connection, release resources used
+		// curl_close($ch);
+	}
+}
