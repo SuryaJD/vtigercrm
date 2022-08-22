@@ -31,14 +31,14 @@ class Leads extends CRMEntity {
 
 	//construct this from database;
 	var $column_fields = Array();
-	var $sortby_fields = Array('lastname','firstname','email','phone','company','smownerid','website');
+	var $sortby_fields = Array('lastname','email','phone','company','smownerid','website'); // Removed First name
 
 	// This is used to retrieve related vtiger_fields from form posts.
 	var $additional_column_fields = Array('smcreatorid', 'smownerid', 'contactid','potentialid' ,'crmid');
 
 	// This is the list of vtiger_fields that are in the lists.
 	var $list_fields = Array(
-		'First Name'=>Array('leaddetails'=>'firstname'),
+		// 'First Name'=>Array('leaddetails'=>'firstname'),
 		'Last Name'=>Array('leaddetails'=>'lastname'),
 		'Company'=>Array('leaddetails'=>'company'),
 		'Phone'=>Array('leadaddress'=>'phone'),
@@ -47,7 +47,7 @@ class Leads extends CRMEntity {
 		'Assigned To'=>Array('crmentity'=>'smownerid')
 	);
 	var $list_fields_name = Array(
-		'First Name'=>'firstname',
+		// 'First Name'=>'firstname',
 		'Last Name'=>'lastname',
 		'Company'=>'company',
 		'Phone'=>'phone',
@@ -73,7 +73,7 @@ class Leads extends CRMEntity {
 	var $mandatory_fields = Array('assigned_user_id', 'lastname', 'createdtime' ,'modifiedtime');
 
 	//Default Fields for Email Templates -- Pavani
-	var $emailTemplate_defaultFields = array('firstname','lastname','leadsource','leadstatus','rating','industry','secondaryemail','email','annualrevenue','designation','salutation');
+	var $emailTemplate_defaultFields = array('lastname','leadsource','leadstatus','rating','industry','secondaryemail','email','annualrevenue','designation','salutation');
 
 	//Added these variables which are used as default order by and sortorder in ListView
 	var $default_order_by = 'lastname';
