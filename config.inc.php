@@ -49,7 +49,7 @@ $dbconfig['db_server'] = 'main-db.cc8dtztnflr3.ap-south-1.rds.amazonaws.com';
 $dbconfig['db_port'] = ':3306';
 $dbconfig['db_username'] = 'Enclosure0281';
 $dbconfig['db_password'] = 'NC&j&L62c&g5';
-$dbconfig['db_name'] = 'vtiger';
+$dbconfig['db_name'] = 'vtiger_online';
 $dbconfig['db_type'] = 'mysqli';
 $dbconfig['db_status'] = 'true';
 
@@ -80,7 +80,7 @@ $dbconfigoption['ssl'] = false;
 
 $host_name = $dbconfig['db_hostname'];
 
-$site_URL = 'http://localhost/vtigercrm/';
+$site_URL = 'https://crm.aerem.co';
 
 // url for customer portal (Example: http://vtiger.com/portal)
 $PORTAL_URL = $site_URL.'/customerportal';

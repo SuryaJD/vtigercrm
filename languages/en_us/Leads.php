@@ -16,8 +16,10 @@ $languageStrings = array(
 
 	// Blocks
 	'LBL_LEAD_INFORMATION' => 'Lead Details',
+	'LBL_ADDRESS_INFORMATION' => 'Comapny Address',
 
 	//Field Labels
+	'Last Name' => 'Name',
 	'Lead No' => 'Lead Number',
 	'Company' => 'Company',
 	'Designation' => 'Designation',
