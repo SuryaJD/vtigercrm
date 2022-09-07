@@ -80,7 +80,14 @@ $dbconfigoption['ssl'] = false;
 
 $host_name = $dbconfig['db_hostname'];
 
-$site_URL = 'http://localhost/vtigercrm';
+// For XAMPP
+$site_URL = 'http://localhost/aeremcrm/';
+
+// For Homestead
+// $site_URL = 'http://vtiger.test';
+
+// For Production
+// $site_URL = 'https://crm.aerem.co';
 
 // url for customer portal (Example: http://vtiger.com/portal)
 $PORTAL_URL = $site_URL.'/customerportal';

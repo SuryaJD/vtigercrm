@@ -330,12 +330,12 @@ $languageStrings = Array(
 'LBL_DOM_ARCHIVE_MISSING'=>'DOM Package Missing On Your Server. Please Install The Package.',
 'LBL_PACAKAGE_ERROR'=>'Suivre Pacakges Missing..!',
 'LBL_PACAKAGE_MISSING'=>'Erreur de package..!',
-'LBL_PACKAGE_INST_STEP'=>'Étapes des installations :',
+'LBL_PACKAGE_INST_STEP'=>'ï¿½tapes des installations :',
 'LBL_PACKAGE_INST_STEP1'=>'1.Veuillez modifier votre php.ini file.',
-'LBL_PACKAGE_INST_STEP2'=>'2.Ajouter extension=zip.so à ton php.ini Fichier pour activer le pacakge ZIP.'	,
+'LBL_PACKAGE_INST_STEP2'=>'2.Ajouter extension=zip.so ï¿½ ton php.ini Fichier pour activer le pacakge ZIP.'	,
 'LBL_PACKAGE_INST_STEP3'=>'3.Suivez le lien http://php.net/manual/en/dom.setup.php Pour la configuration DOM.',
 'LBL_PACKAGE_INST_STEP4'=>"4.Contactez l'administrateur du serveur si vous ne pouvez pas activer les pacakges.",
-'LBL_REFRESH'=> 'Rafraîchir',
+'LBL_REFRESH'=> 'Rafraï¿½chir',
 
 'LBL_TECH_LICENCE'	=>
 '***************************************************************************************************************************

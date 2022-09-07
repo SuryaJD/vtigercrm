@@ -76,7 +76,7 @@ $languageStrings = Array(
 'LBL_CUSTOM_INFORMATION' 							=> 'Informatie op maat',
 'LBL_MODULEBLOCK_INFORMATION' 						=> 'Moduleblok Informatie',
 'LBL_CREATE_AND_EXPORT_MODULE_TKS' 					=> 'model Builder',
-'LBL_CREATE_AND_EXPORT_MODULE_TKS_DESCRIPTION' 		=> 'Creëer en Download Uw Nieuw Model',
+'LBL_CREATE_AND_EXPORT_MODULE_TKS_DESCRIPTION' 		=> 'Creï¿½er en Download Uw Nieuw Model',
 'LBL_FILTER_FIELD_TKS' 								=> 'filter Veld',
 'LBL_MODULE_BUILDER' 								=> 'model Builder',
 'SELECT_RELATED_MODULES'							=> 'Verwante modellen',
@@ -137,7 +137,7 @@ $languageStrings = Array(
 'LBL_MODULE_NAME'									=> 'Model-builder',
 'LBL_INSTALL'										=> 'installatie',
 'LBL_WELCOME'										=> 'Zo blij met de Vtiger model-builder installatiewizard',
-'LBL_WELCOME_DESC'									=> 'Dit zal in uw Vtiger Vtiger model-builder metselwerk worden geïnstalleerd.',
+'LBL_WELCOME_DESC'									=> 'Dit zal in uw Vtiger Vtiger model-builder metselwerk worden geï¿½nstalleerd.',
 'LBL_WELCOME_FINISH'								=> 'Dit was een zeer Rekmended het Finse IT-installatie Vithut andere Interruption.',
 'LBL_INSERT_KEY'									=> 'Gelieve de licentie in de VS Resived Purchase e-mail bevestiging.',
 'LBL_ONLINE_ASSURE'									=> 'Maak dan de laatste airconditioning Surrey wiegen Uw server voer deze orders validatie.',
@@ -247,7 +247,7 @@ $languageStrings = Array(
 'LBL_GO_BACK'										=> 'teruggaan',
 'LBL_DOWNLOAD' 										=> 'Download',
 'LBL_RESERVED_KEYWORD' 								=> 'Word Knnot ons een model van de gereserveerde naam, verander het aan hem de modelnaam',
-'LBL_EXIST_MODULE' 									=> 'Al aanwezig en geïnstalleerd op het model, moet u de huidige instantie de modelnaam',
+'LBL_EXIST_MODULE' 									=> 'Al aanwezig en geï¿½nstalleerd op het model, moet u de huidige instantie de modelnaam',
 'LBL_ZIP_NOT_PRESENT' 								=> 'Als deze Sla Draft heldhaftige Current Niveaw leefgebied ZIP klik Download to Own',
 'LBL_ZERO_BLOCK' 									=> 'Voeg Atalist van hun blok',
 'LBL_ZERO_FIELD_IN_BLOCK' 							=> 'Gelieve te voegen van hun veld in Atalist',
@@ -261,12 +261,12 @@ $languageStrings = Array(
 'LBL_FAILED_MODULE_INIT'							=> 'Model Process leefgebied note Initializhed Goed! Herstart het proces opnieuw',
 'LBL_FIELD_EXISIT_FOR_BLOCK'						=> 'Knnot verwijderd! Velden waren Aksists blok. <September /> Kan alleen verwijder de lege blok',
 'LBL_PACKAGE_NOT_FOUND'								=> ' Opmerking Gevonden Dus server.',
-'LBL_NOT_FOUND'										=> 'DOMDocument (php-xml) Ontbrekende Pakket! <br />Dit pakket wordt dan geïnstalleerd op de server, dan kunt u contact opnemen Your Hosting',
+'LBL_NOT_FOUND'										=> 'DOMDocument (php-xml) Ontbrekende Pakket! <br />Dit pakket wordt dan geï¿½nstalleerd op de server, dan kunt u contact opnemen Your Hosting',
 'LBL_UNINSTALL_MODULE_BUILDER'						=> 'Uninstol Model Builder',
 'LBL_ZIPANDDOMPACKAGE'								=> '"Zip Archive Package" en "DOMDocument (php-xml) Package"<br/>',
 'LBL_ZIPPACKAGE'									=> 'Zip Archive Package',
 'LBL_DOMDOCUMENTPACKAGE'							=> 'DOMDocument (php-xml) Package',
-'LBL_MISSING_PACKAGE'								=> ' De notitie Geïnstalleerd!',
+'LBL_MISSING_PACKAGE'								=> ' De notitie Geï¿½nstalleerd!',
 'LBL_INSTALL_PACKAGE'								=> 'Installeer pakket Boven Mensnd op uw server.',
 'LBL_CONTACT_HOSTING'								=> 'Uw hosting service provider voor meer informatie contact op met Moray.',
 'LBL_TKS_HELP'										=> 'U kunt ook die wedstrijd (voor ondersteuning), dus :- support@technokrafts.com',
@@ -348,8 +348,8 @@ Via Admin gebruiker in de model-instellingen.',
  Algemene voorwaarden:
 
  Geen garantie. Mits de software "ons dit" zonder enige vorm van garantie, hetzij uitdrukkelijk
-  of impliciet, inclusief maar niet beperkt tot impliciete garanties van de staat, ononderbroken
-  gebruik, verkoopbaarheid, geschiktheid voor een bepaald doel of niet-inbreuk.
+ï¿½ of impliciet, inclusief maar niet beperkt tot impliciete garanties van de staat, ononderbroken
+ï¿½ gebruik, verkoopbaarheid, geschiktheid voor een bepaald doel of niet-inbreuk.
 
  licentie
 
@@ -362,20 +362,20 @@ Via Admin gebruiker in de model-instellingen.',
  Deze licentie werden geeft de houder het recht te installeren ##moduleLable## Op installatie werk uit hun Vtiger.
 
  Indien de vergunninghouder maken dit Alloved waren Modifikeshns ##moduleLable## bronnen, maar in geen enkel
-  evenement zal de oorspronkelijke houders van de auteursrechten van deze bibliotheek verantwoordelijk voor de actie worden gehouden
-  of acties die voortvloeien uit wijzigingen van de bron.
+ï¿½ evenement zal de oorspronkelijke houders van de auteursrechten van deze bibliotheek verantwoordelijk voor de actie worden gehouden
+ï¿½ of acties die voortvloeien uit wijzigingen van de bron.
 
  Vereist als de vergunninghouder van de notitie te maken othervise Verkrijgbaar Publisijhe en andere software
-  Gebruikt in combinatie met Module Builder.
+ï¿½ Gebruikt in combinatie met Module Builder.
 
  Kan notes werden opnieuw verdelen de vergunninghouder eigen Library IT\'s Op de Versies DAARVAN
-  Vithut voorafgaande schriftelijke toestemming van de derde partij auteursrechthebbenden waren.
+ï¿½ Vithut voorafgaande schriftelijke toestemming van de derde partij auteursrechthebbenden waren.
 
  ##moduleLable## Als de bibliotheek werden gebeten licentie Allov Bay Redistrybuted Een ander deel van ons
-  product.
+ï¿½ product.
 
  Een ander Vtiger installatie werkt alleen als de licentie mei met Bay Tronsfred Pryor
-  schriftelijke toestemming.
+ï¿½ schriftelijke toestemming.
 
  Deze licentie Vording van de oproeping voor de toekomstige versies van Vithut kan veranderen ##moduleLable##.',
 /*TOOLTIPS*/
