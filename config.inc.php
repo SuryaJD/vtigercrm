@@ -81,7 +81,7 @@ $dbconfigoption['ssl'] = false;
 $host_name = $dbconfig['db_hostname'];
 
 // For XAMPP
-$site_URL = 'http://localhost/vtigercrm/';
+$site_URL = 'http://localhost/aeremcrm/';
 
 // For Homestead
 // $site_URL = 'http://vtiger.test';
