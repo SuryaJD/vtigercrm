@@ -16,49 +16,49 @@ $languageStrings = Array(
 'LBL_CREATE_CUSTOM_FIELD'							=> 'Neues Feld',
 'LBL_LABEL_NAME'									=> 'Label -Name',
 'LBL_DETAILVIEW_LAYOUT'								=> 'Detail View -Layout',
-'LBL_ARRANGE_RELATED_TABS'							=> 'Hinzufï¿½gen ï¿½hnliche Tabs',
+'LBL_ARRANGE_RELATED_TABS'							=> 'Hinzufügen Ähnliche Tabs',
 'LBL_ADD_CUSTOM_BLOCK'								=> 'Add New Block',
 'LBL_SAVE_FIELD_SEQUENCE'							=> 'Speichern Halbbildfolge',
 'LBL_DECIMALS'										=> 'Nachkommastellen',
 'LBL_PICKLIST_VALUES'								=> 'Auswahlliste Werte',
 'LBL_ENTER_PICKLIST_VALUES'							=> 'Geben Kommissionierliste Werte.',
 'LBL_ROLE_BASED_PICKLIST'							=> 'Rollenbasierte Pick- Liste',
-'LBL_RELATED_MODULES'								=> 'Wï¿½hlen Relate -Modul',
+'LBL_RELATED_MODULES'								=> 'Wählen Relate -Modul',
 'LBL_TKS_MANDATORY'									=> 'Pflichtfeld',
 'LBL_TKS_FILTER'									=> 'Filterfeld',
 'LBL_DRAG'                     						=> 'Ziehen',
 'LBL_FIELDS_AND_LAYOUT_EDITOR' 						=> 'Felder und Layout-Editor',
 'LBL_CREATE_CUSTOM_FIELD' 							=> 'Neues Feld',
 'LBL_DETAILVIEW_LAYOUT' 							=> 'Detail View -Layout',
-'LBL_ADD_CUSTOM_FIELD' 								=> 'Neues Feld hinzufï¿½gen',
-'LBL_ADD_CUSTOM_BLOCK' 								=> 'Neuen Baustein hinzufï¿½gen',
+'LBL_ADD_CUSTOM_FIELD' 								=> 'Neues Feld hinzufügen',
+'LBL_ADD_CUSTOM_BLOCK' 								=> 'Neuen Baustein hinzufügen',
 'LBL_SAVE_FIELD_SEQUENCE' 							=> 'Speichern Halbbildfolge',
 'LBL_BLOCK_NAME' 									=> 'Baustein Name',
-'LBL_ADD_AFTER' 									=> 'hinzufï¿½gen Nach',
+'LBL_ADD_AFTER' 									=> 'hinzufügen Nach',
 'LBL_ACTIONS' 										=> 'Aktionen',
 'LBL_ALWAYS_SHOW' 									=> 'immer anzeigen',
 'LBL_INACTIVE_FIELDS' 								=> 'Inaktive Felder',
-'LBL_DELETE_CUSTOM_BLOCK' 							=> 'Lï¿½schen New blockieren',
+'LBL_DELETE_CUSTOM_BLOCK' 							=> 'Löschen New blockieren',
 'LBL_MANDATORY_FIELD' 								=> 'Pflichtfeld',
 'LBL_ACTIVE' 										=> 'aktiv',
 'LBL_QUICK_CREATE' 									=> 'Schnell erstellen',
 'LBL_SUMMARY_FIELD' 								=> 'Zusammenfassung anzeigen',
 'LBL_MASS_EDIT' 									=> 'Massen bearbeiten',
 'LBL_DEFAULT_VALUE' 								=> 'Standardwert',
-'LBL_SELECT_FIELD_TYPE' 							=> 'Wï¿½hlen Sie Feldtyp',
+'LBL_SELECT_FIELD_TYPE' 							=> 'Wählen Sie Feldtyp',
 'LBL_LABEL_NAME' 									=> 'Label -Name',
-'LBL_LENGTH' 										=> 'Lï¿½nge',
+'LBL_LENGTH' 										=> 'Länge',
 'LBL_DECIMALS' 										=> 'Nachkommastellen',
 'LBL_ENTER_PICKLIST_VALUES' 						=> 'Geben Sie Auswahllistenwerte..',
 'LBL_PICKLIST_VALUES' 								=> 'Auswahllistenwerte',
 'LBL_INACTIVE_FIELDS' 								=> 'Inaktive Felder',
 'LBL_REACTIVATE' 									=> 'reaktivieren',
 'LBL_ARRANGE_RELATED_LIST' 							=> 'Vereinbaren Verwandte Liste',
-'LBL_SELECT_MODULE_TO_ADD' 							=> 'Wï¿½hlen Sie Modul hinzufï¿½gen , um',
-'LBL_NO_RELATED_INFORMATION' 						=> 'No Related Information . Bitte wï¿½hlen Sie Modul betreffen',
+'LBL_SELECT_MODULE_TO_ADD' 							=> 'Wählen Sie Modul hinzufügen , um',
+'LBL_NO_RELATED_INFORMATION' 						=> 'No Related Information . Bitte wählen Sie Modul betreffen',
 'LBL_RELATED_LIST_INFO' 							=> 'Ziehen Sie das Modul, um die Liste neu zu ordnen',
-'LBL_REMOVE_INFO' 									=> 'Klicken Sie auf das Schlieï¿½en-Symbol , um das Modul aus der Liste entfernen',
-'LBL_ADD_MODULE_INFO' 								=> 'Wï¿½hlen Sie das Modul aus der entfernten Module Zurï¿½ck zur Liste',
+'LBL_REMOVE_INFO' 									=> 'Klicken Sie auf das Schließen-Symbol , um das Modul aus der Liste entfernen',
+'LBL_ADD_MODULE_INFO' 								=> 'Wählen Sie das Modul aus der entfernten Module Zurück zur Liste',
 'LBL_SELECT_MODULE' 								=> 'Select Module',
 'LBL_DUPLICATES_EXIST' 								=> 'Baustein Name ist bereits vorhanden',
 'LBL_DUPLICATE_FILED_EXIST' 						=> 'Feldname ist bereits vorhanden',
@@ -67,11 +67,11 @@ $languageStrings = Array(
 'LBL_WRONG_FIELD_TYPE'								=> 'Falsche Feldtyp',
 'LBL_ROLE_BASED_PICKLIST' 							=> 'Rollenbasierte Auswahlliste',
 'LBL_CLICK_HERE_TO_EDIT' 							=> 'Klicken Sie hier , um zu bearbeiten',
-'LBL_ADD_CUSTOM_FIELD'								=> 'Neues Feld hinzufï¿½gen',
+'LBL_ADD_CUSTOM_FIELD'								=> 'Neues Feld hinzufügen',
 'LBL_ACTIONS'										=> 'Aktionen',
 'LBL_ALWAYS_SHOW'									=> 'immer anzeigen',
 'LBL_INACTIVE_FIELDS'								=> 'Inaktive Felder',
-'LBL_DELETE_CUSTOM_BLOCK'							=> 'Block lï¿½schen',
+'LBL_DELETE_CUSTOM_BLOCK'							=> 'Block löschen',
 'LBL_DUPLICATES_EXIST'								=> 'Block bereits vorhanden',
 'LBL_CUSTOM_INFORMATION' 							=> 'Kundenspezifische Informationen',
 'LBL_MODULEBLOCK_INFORMATION' 						=> 'ModuleBlock Informationen',
@@ -83,31 +83,31 @@ $languageStrings = Array(
 'TKS_ADD_ATLEAST_ONE_BLOCK' 						=> 'In atleast einen Block !',
 'TKS_ADD_ATLEAST_ONE_FIELD' 						=> 'In atleast ein Feld im Block ',
 'TKS_MAEK_ATLEAST_ONE_FIELD_MANDATORY_FILTER' 		=> 'Mark atleast ein Feld Obligatorische und Filter !',
-'TKS_SELECT_ENTITY_IDENTIFIER_FIELD' 				=> 'Wï¿½hlen Entity Identifier Feld !',
+'TKS_SELECT_ENTITY_IDENTIFIER_FIELD' 				=> 'Wählen Entity Identifier Feld !',
 'TKS_ARE_YOU_SURE_TO_SAVE_MODULE' 					=> 'Sind Sie sicher , um das Modul zu speichern!',
 'TKS_YOU_CANCELLED_TO_SAVE_MODULE' 					=> 'Sie abgebrochen , um das Modul zu speichern!',
 'TKS_PLEASE_ENTER_ONLY_ALPHABETS_IN_MODULE_NAME' 	=> 'Bitte geben Sie nur Alphabete in Modulname !',
 'TKS_PLEASE_ENTER_ONLY_ALPHABETS_IN_MODULE_LABEL' 	=> 'Bitte geben Sie nur Alphabete in Modul -Aufkleber',
-'TKS_MODULE_EXISTS' 								=> 'Modulname existiert bereits ! Bitte ï¿½ndern Modulnamen , um fortzufahren!',
+'TKS_MODULE_EXISTS' 								=> 'Modulname existiert bereits ! Bitte ändern Modulnamen , um fortzufahren!',
 'TKS_PLEASE_SAVE_AGAIN_TO_DOWNLOAD_ZIP' 			=> 'Bitte speichern Sie erneut das Modul an Zip-Datei herunterladen !',
 'TKS_MODULE_IS_CREATED' 							=> 'Modul erstellt !',
 'TKS_ENTER_ONLY_ALPHABETS' 							=> 'Geben Sie nur Alphabete !',
-'TKS_INVALID_FIELD_LABEL' 							=> 'Ungï¿½ltige Feldbezeichnung !',
-'TKS_SELECT_ATLEAST_ONE_MODULE' 					=> 'Wï¿½hlen Sie atleast ein Modul !',
+'TKS_INVALID_FIELD_LABEL' 							=> 'Ungültige Feldbezeichnung !',
+'TKS_SELECT_ATLEAST_ONE_MODULE' 					=> 'Wählen Sie atleast ein Modul !',
 'TKS_PICKLIST_NAME_ALLREADY_EXISTS' 				=> 'Auswahllisten- Namen ist bereits in einem anderen Modul !',
-'TKS_CAN_NOT_DELETE_BLOCK_AS_IT_CONTAINS_FIELDS' 	=> 'Kann Block nicht gelï¿½scht werden , da sie die Bereich (e ) enthï¿½lt !',
+'TKS_CAN_NOT_DELETE_BLOCK_AS_IT_CONTAINS_FIELDS' 	=> 'Kann Block nicht gelöscht werden , da sie die Bereich (e ) enthält !',
 'BLOCK_NAME_CANNOT_BE_BLANK'						=> 'Blockname darf nicht leer sein',
 'LABEL_ALREADY_EXISTS'								=> 'Label ist bereits vorhanden',
-'LENGTH_OUT_OF_RANGE'								=> 'Lï¿½nge des Blocks sollte weniger als 50 Zeichen',
+'LENGTH_OUT_OF_RANGE'								=> 'Länge des Blocks sollte weniger als 50 Zeichen',
 'SPECIAL_CHARACTERS'								=> 'Sonderzeichen',
 'NOT_ALLOWED' 										=> 'sind nicht erlaubt. Bitte versuchen Sie es mit einem anderen Wert',
 'PICKLIST_CANNOT_BE_EMPTY'							=> 'Picklistenwert darf nicht leer sein',
 'DUPLICATE_VALUES_FOUND'							=> 'Doppelte Werte',
 'FIELD_IS_MANDATORY'								=> 'Pflichtfeld',
-'ARE_YOU_SURE_YOU_WANT_TO_DELETE_BLOCK'				=> 'Sind Sie sicher, dass Sie um den Block zu lï¿½sch',
-'FIELD_TYPE_NOT_SELECTED'							=> 'Bitte wï¿½hlen Sie den Feldtyp',
-'ARE_YOU_SURE_YOU_WANT_TO_DELETE'					=> 'Sind Sie sicher, dass Sie lï¿½schen wollen?',
-'DIR_CREATION_ERROR'								=> 'Ungï¿½ltiger Pfad ! \ NDont haben entsprechende Berechtigung zum Modul \ nContact System Admin erstellen',
+'ARE_YOU_SURE_YOU_WANT_TO_DELETE_BLOCK'				=> 'Sind Sie sicher, dass Sie um den Block zu lösch',
+'FIELD_TYPE_NOT_SELECTED'							=> 'Bitte wählen Sie den Feldtyp',
+'ARE_YOU_SURE_YOU_WANT_TO_DELETE'					=> 'Sind Sie sicher, dass Sie löschen wollen?',
+'DIR_CREATION_ERROR'								=> 'Ungültiger Pfad ! \ NDont haben entsprechende Berechtigung zum Modul \ nContact System Admin erstellen',
 'Decimal'											=> 'dezimal',
 'ProjectTask' 										=> 'Projektaufgabe',
 'SalesOrder' 										=> 'Sales Order',
@@ -115,16 +115,16 @@ $languageStrings = Array(
 'MODULE_NAME' 										=> 'Module Name',
 'MODULE_LABEL'						 				=> 'Module Etikett',
 'PARENT_TAB_NAME' 									=> 'Mutter Tab -Name',
-'SELECT_ACTION' 									=> 'Aktion auswï¿½hlen',
-'ADD_ACTION' 										=> 'Aktion hinzufï¿½gen',
+'SELECT_ACTION' 									=> 'Aktion auswählen',
+'ADD_ACTION' 										=> 'Aktion hinzufügen',
 'ENTITY_IDENTIFIER_FIELD'	 						=> 'Entity Identifier Feld',
-'SELECT_FIELD' 										=> 'Wï¿½hlen Sie Feld',
-'SELECT_BLOCK' 										=> 'Wï¿½hlen Sie die Block',
-'ADD_BLOCK'											=> 'hinzufï¿½gen Blockieren',
+'SELECT_FIELD' 										=> 'Wählen Sie Feld',
+'SELECT_BLOCK' 										=> 'Wählen Sie die Block',
+'ADD_BLOCK'											=> 'hinzufügen Blockieren',
 'LBL_PICKLIST_FIELD_SETTINGS'						=> 'Auswahlliste Feldeinstellungen',
-'Leads'												=> 'Fï¿½hrung',
+'Leads'												=> 'Führung',
 'Accounts'											=> 'Unternehmen',
-'Contacts'											=> 'Berï¿½hrung',
+'Contacts'											=> 'Berührung',
 'Potentials'										=> 'Gelegenheit',
 'HelpDesk'											=> 'HelpDesk',
 'Products'											=> 'Erzeugnis',
@@ -133,14 +133,14 @@ $languageStrings = Array(
 'LBL_URL'											=> 'URL',
 'LBL_CHECK_BOX'										=> 'Check Box',
 'LBL_TEXT_AREA'										=> 'Textbereich',
-'LBL_THANKS' 										=> 'Vielen Dank fï¿½r den Kauf des vtiger Modul - Builder',
+'LBL_THANKS' 										=> 'Vielen Dank für den Kauf des vtiger Modul - Builder',
 'LBL_MODULE_NAME'									=> 'Module-Builder',
 'LBL_INSTALL'										=> 'installation',
 'LBL_WELCOME'										=> 'Willkommen in der vtiger -Modul - Builder -Installationsassistenten',
 'LBL_WELCOME_DESC'									=> 'Dies wird Vtiger Modul - Builder in Ihre vtiger CRM zu installieren.',
 'LBL_WELCOME_FINISH'								=> 'Es wird dringend empfohlen , um die Installation ohne Unterbrechung beenden.',
-'LBL_INSERT_KEY'									=> 'Bitte geben Sie den Lizenzschlï¿½ssel in der Kaufbestï¿½tigung per E-Mail erhalten.',
-'LBL_ONLINE_ASSURE'									=> 'Bitte stellen Sie sicher , dass Ihr Server verfï¿½gt ï¿½ber einen Internetzugang , um die Validierung ausfï¿½hren.',
+'LBL_INSERT_KEY'									=> 'Bitte geben Sie den Lizenzschlüssel in der Kaufbestätigung per E-Mail erhalten.',
+'LBL_ONLINE_ASSURE'									=> 'Bitte stellen Sie sicher , dass Ihr Server verfügt über einen Internetzugang , um die Validierung ausführen.',
 'LBL_INSTAL_ERROR'									=> 'Fehler bei der Installation von vtiger Modul - Builder aufgetreten.',
 'LBL_ERROR_TBL'										=> 'Folgende Aufgaben nicht ins Ziel',
 'LBL_VALIDATE'										=> 'validieren',
@@ -148,8 +148,8 @@ $languageStrings = Array(
 'LBL_RELOAD'										=> 'Wiederholen',
 'Order_URL' 										=> 'http://www.technokrafts.com',
 'LBL_FILEMISSING'									=> 'Anfrage verweigert! Datei fehlt Bitte deinstallieren und installieren Sie das Modul.',
-'LBL_GO_BACK'										=> 'zurï¿½ck',
-'LBL_SOMETHING_WRONG'								=> 'Ooops ! Da lief was falsch . Versuchen Sie es spï¿½ter noch einmal! <br /> oder kontaktieren Sie das Modul Vendor',
+'LBL_GO_BACK'										=> 'zurück',
+'LBL_SOMETHING_WRONG'								=> 'Ooops ! Da lief was falsch . Versuchen Sie es später noch einmal! <br /> oder kontaktieren Sie das Modul Vendor',
 'LBL_TKS_MOD'										=> 'ModuleBuilder',
 'CustomFields'										=> 'neue Felder',
 'NewCustomField'									=> 'neues Feld',
@@ -162,16 +162,16 @@ $languageStrings = Array(
 'CUSTOMFIELD'										=> 'neues Feld',
 'LBL_CUSTOM_FIELDS'									=> 'neue Felder',
 'LBL_ADD_FIELD'										=> 'Neues Feld',
-'LBL_CUSTM_MSG'										=> 'ermï¿½glicht es Ihnen, ....',
+'LBL_CUSTM_MSG'										=> 'ermöglicht es Ihnen, ....',
 'PicklistFields'									=> 'Auswahllistenfelder',
 'Edit'												=> 'redigieren',
 'LBL_EDIT_FIELD_TYPE'								=> 'Bearbeiten Feldtyp',
 //Settings/CustomField.html
 'LBL_PROVIDE_FIELD_INFORMATION'						=> 'Geben Sie Feldinformationen ',
-'LBL_SELECT_FIELD_TYPE'								=> 'Wï¿½hlen Sie Feldtyp ',
+'LBL_SELECT_FIELD_TYPE'								=> 'Wählen Sie Feldtyp ',
 'LBL_PROVIDE_FIELD_DETAILS'							=> 'Geben Sie Feld Details ',
 'LBL_LABEL'											=> 'Etikett ',
-'LBL_LENGTH'										=> 'Lï¿½nge ',
+'LBL_LENGTH'										=> 'Länge ',
 'LBL_DECIMAL_PLACES'								=> 'Dezimalstellen ',
 'LBL_PICK_LIST_VALUES'								=> 'Auswahlliste Werte ',
 'SELECT_MODULE' 									=> 'Select Module ', //technokrafts
@@ -189,7 +189,7 @@ $languageStrings = Array(
 'Decimal'											=> 'dezimal',
 'Integer'											=> 'ganze Zahl',
 'Percent'											=> 'Prozent',
-'Currency'											=> 'Wï¿½hrung',
+'Currency'											=> 'Währung',
 'Date'												=> 'Datum',
 'Email'												=> 'E-Mail',
 'Phone'												=> 'Telefon',
@@ -213,17 +213,17 @@ $languageStrings = Array(
 'LBL_NOTIFICATION'									=> 'Benachrichtigung',
 'LBL_DESCRIPTION'									=> 'Bezeichnung',
 'LBL_TOOL'											=> 'Tool',
-'DELETE_PICKLIST_VALUES'							=> 'Lï¿½schen Picklistenwerte',
+'DELETE_PICKLIST_VALUES'							=> 'Löschen Picklistenwerte',
 'EDIT_PICKLIST_VALUE'								=> 'Bearbeiten Picklistenwert',
 'ADD_PICKLIST_VALUES'								=> 'In Picklistenwerte',
-'LBL_PICKLIST_ADDINFO'								=> 'Geben Sie die neuen Eintrï¿½ge einen nach unten',
-'LBL_SELECT_ROLES'									=> 'Wï¿½hlen Sie die Rollen an , die Eintrï¿½ge hinzugefï¿½gt werden',
+'LBL_PICKLIST_ADDINFO'								=> 'Geben Sie die neuen Einträge einen nach unten',
+'LBL_SELECT_ROLES'									=> 'Wählen Sie die Rollen an , die Einträge hinzugefügt werden',
 'LBL_EXISTING_PICKLIST_VALUES'						=> 'Bestehende Picklistenwerte',
-'LBL_SELECT_PICKLIST'								=> 'Wï¿½hlen Sie die Auswahlliste',
+'LBL_SELECT_PICKLIST'								=> 'Wählen Sie die Auswahlliste',
 'LBL_MOVE_FIELDS' 									=> 'Verschieben Felder',
 'NO_HIDDEN_FIELDS' 									=> 'Keine versteckten Feldern',
 'LBL_RELATED_LIST' 									=> 'Verwandte Liste',
-'LBL_ADD_BLOCK' 									=> 'hinzufï¿½gen Blockieren',
+'LBL_ADD_BLOCK' 									=> 'hinzufügen Blockieren',
 'HIDDEN_FIELDS' 									=> 'versteckten Feldern',
 'DOWN'												=> 'nach unten',
 'UP'												=> 'herauf',
@@ -235,30 +235,30 @@ $languageStrings = Array(
 'LBL_QUICK_CREATE' 									=> 'Schnell erstellen',
 'LBL_MASS_EDIT' 									=> 'Massen bearbeiten',
 'AFTER' 											=> 'nach',
-'LBL_ADD_AFTER' 									=> 'hinzufï¿½gen Nach',
-'ADD_BLOCK' 										=> 'hinzufï¿½gen Blockieren',
+'LBL_ADD_AFTER' 									=> 'hinzufügen Nach',
+'ADD_BLOCK' 										=> 'hinzufügen Blockieren',
 'ARRANGE_RELATEDLIST' 								=> 'Vereinbaren RelatedList',
 'CUSTOMFIELD_MAPPING' 								=> 'NewField Mapping',
 'LBL_MAPPED_FIELDS'							 		=> 'Zugeordnete Felder',
 'LEADS_CUSTOM_FIELD_MAPPING_DESCRIPTION' 			=> 'Lage Ihre Leads Newfields mit Organisationen, Kontakte und Chancen',
-'LEADS_CUSTOM_FIELD_MAPPING'						=> 'Fï¿½hrt Feldzuordnung',
+'LEADS_CUSTOM_FIELD_MAPPING'						=> 'Führt Feldzuordnung',
 'LBL_CALENDER_CUSTOMFIELDS' 						=> 'Kalender Neue Felder',
-'LBL_CALENDER_CUSTOMFIELDS_DESCRIPTION' 			=> 'Sie kï¿½nnen neue Felder fï¿½r Kalender erstellen',
-'LBL_GO_BACK'										=> 'Zurï¿½ck',
+'LBL_CALENDER_CUSTOMFIELDS_DESCRIPTION' 			=> 'Sie können neue Felder für Kalender erstellen',
+'LBL_GO_BACK'										=> 'Zurück',
 'LBL_DOWNLOAD' 										=> 'Herunterladen',
-'LBL_RESERVED_KEYWORD' 								=> 'Reserviert Schlï¿½sselwort nicht verwenden es als Modulnamen ï¿½ndern Sie bitte den Namen des Moduls',
-'LBL_EXIST_MODULE' 									=> 'Das Modul bereits vorhanden und der aktuellen Instanz installiert ï¿½ndern Sie bitte den Namen des Moduls',
+'LBL_RESERVED_KEYWORD' 								=> 'Reserviert Schlüsselwort nicht verwenden es als Modulnamen ändern Sie bitte den Namen des Moduls',
+'LBL_EXIST_MODULE' 									=> 'Das Modul bereits vorhanden und der aktuellen Instanz installiert ändern Sie bitte den Namen des Moduls',
 'LBL_ZIP_NOT_PRESENT' 								=> 'Zip nicht vorhanden bitte versuchen Sie erneut zu speichern und klicken Sie dann auf den Download',
-'LBL_ZERO_BLOCK' 									=> 'Bitte fï¿½gen Sie atleast einen Block',
-'LBL_ZERO_FIELD_IN_BLOCK' 							=> 'Bitte fï¿½gen Sie atleast ein Feld in',
+'LBL_ZERO_BLOCK' 									=> 'Bitte fügen Sie atleast einen Block',
+'LBL_ZERO_FIELD_IN_BLOCK' 							=> 'Bitte fügen Sie atleast ein Feld in',
 'LBL_ENTITY_IDENTIFIER' 							=> 'Bitte stellen Sie atleast ein Feld und Filterfeld Optionsfeld Bearbeiten von',
 'LBL_DIR_CREATION' 									=> 'Kann nicht fortgesetzt bitte angeben appropirate Verzeichnisberechtigungen',
-'LBL_ADD_MODULE'									=> 'Hinzufï¿½gen ï¿½hnliche Module',
+'LBL_ADD_MODULE'									=> 'Hinzufügen Ähnliche Module',
 'LBL_CLEAR_CACHE_INFO'								=> 'Deaktivieren Sie Old Cache & Datenschutz . Seine ratsam, vor dem Erstellen von Neues Modul.',
 'LBL_CLEAR_CACHE_TITLE'								=> 'Klar Old Cache & Datenschutz',
 'LBL_NEXT'											=> 'Weiter',
 'LBL_FAILED_MODULE_INIT'							=> 'Module Prozess wurde nicht korrekt initialisiert ! Starten Sie den Prozess erneut',
-'LBL_FIELD_EXISIT_FOR_BLOCK'						=> 'Kann nicht lï¿½schen ! Felder gibt es fï¿½r den Block. <br/> Kann nur leeren Block zu lï¿½schen',
+'LBL_FIELD_EXISIT_FOR_BLOCK'						=> 'Kann nicht löschen ! Felder gibt es für den Block. <br/> Kann nur leeren Block zu löschen',
 'LBL_PACKAGE_NOT_FOUND'								=> ' nicht an Ihrem Server nicht gefunden.',
 'LBL_NOT_FOUND'										=> 'DOMDocument (php -xml ) Paket fehlt! <br /> Bitte kontaktieren Sie Ihren Hosting , dieses Paket auf Ihrem Server installieren',
 'LBL_UNINSTALL_MODULE_BUILDER'						=> 'Uninstall Module Builder',
@@ -267,62 +267,62 @@ $languageStrings = Array(
 'LBL_DOMDOCUMENTPACKAGE'							=> 'DOMDocument (php -xml ) Paket',
 'LBL_MISSING_PACKAGE'								=> ' ist nicht installiert !',
 'LBL_INSTALL_PACKAGE'								=> 'Bitte installieren Sie den oben genannten Paket auf Ihrem Server.',
-'LBL_CONTACT_HOSTING'								=> 'Kontaktieren Sie Ihren Hosting Service Provider fï¿½r weitere Informationen.',
-'LBL_TKS_HELP'										=> 'Sie kï¿½nnen uns ( zur Unterstï¿½tzung) bei auch mailen : - support@technokrafts.com',
+'LBL_CONTACT_HOSTING'								=> 'Kontaktieren Sie Ihren Hosting Service Provider für weitere Informationen.',
+'LBL_TKS_HELP'										=> 'Sie können uns ( zur Unterstützung) bei auch mailen : - support@technokrafts.com',
 'LBL_CLICK_HERE'									=> 'Klicken Sie hier , um ',
-'LBL_NONADMIN_PACKAGE_MESSAGE'						=> 'Bitte kontaktieren Sie Ihren CRM Adminstrator fï¿½r weitere Informationen',
+'LBL_NONADMIN_PACKAGE_MESSAGE'						=> 'Bitte kontaktieren Sie Ihren CRM Adminstrator für weitere Informationen',
 'LBL_UNINSTALLATION_WIZARD'							=> 'Module Builder Deinstallation',
-'LBL_AUTO_UNINSTALL'								=> 'Die Funktionalitï¿½t Auto Deinstallieren verfï¿½gbar sein wird in <strong> Module Builder Pro-Version ! </ Strong>',
+'LBL_AUTO_UNINSTALL'								=> 'Die Funktionalität Auto Deinstallieren verfügbar sein wird in <strong> Module Builder Pro-Version ! </ Strong>',
 'LBL_UN_STEP'										=> 'Bitte beachten Sie die folgenden Schritte : -',
 'LBL_UN_STEP1'										=> '<ol>
-<li> Lï¿½schen " Module Builder " Ordner aus dem Weg : - " / modules / Module " manuell vom Server </ li>
-<li> Lï¿½schen " Module Builder " Ordner aus dem Weg : - " / Layouts / vlayout / modules / Module " manuell vom Server </ li>
+<li> Löschen " Module Builder " Ordner aus dem Weg : - " / modules / Module " manuell vom Server </ li>
+<li> Löschen " Module Builder " Ordner aus dem Weg : - " / Layouts / vlayout / modules / Module " manuell vom Server </ li>
 </ ol>',
-'LBL_BACKUP_REQUEST'								=> 'Bitte nehmen Sie Backup Ihrer Code-Basis und Datenbank fï¿½r sicheren Seite .',
+'LBL_BACKUP_REQUEST'								=> 'Bitte nehmen Sie Backup Ihrer Code-Basis und Datenbank für sicheren Seite .',
 'LBL_NOTES'											=> 'Hinweise',
-'LBL_BACKTO'										=> 'Zurï¿½ck zur Builder View Modul',
+'LBL_BACKTO'										=> 'Zurück zur Builder View Modul',
 'LBL_DIRCREATION'									=> 'Verzeichnis Creation Denied',
-'LBL_DIRCREATION1'									=> 'Bitte Setup entsprechende Erlaubnis fï¿½r die "test" Ordner',
+'LBL_DIRCREATION1'									=> 'Bitte Setup entsprechende Erlaubnis für die "test" Ordner',
 /*TOOLTIPS*/
-'LBL_CLEARCACHE'									=> 'Um alle vorherigen Daten und Cache lï¿½schen',
-'LBL_ADD_NEW_BLOCK'									=> 'Klicken Sie auf das New -Block zu dem Modul hinzufï¿½gen',
+'LBL_CLEARCACHE'									=> 'Um alle vorherigen Daten und Cache löschen',
+'LBL_ADD_NEW_BLOCK'									=> 'Klicken Sie auf das New -Block zu dem Modul hinzufügen',
 'LBL_CLICK_NEXT'									=> 'Klicken Sie hier um weiter zu gehen und initialisieren Modul Build-Prozess',
 'LBL_CLICK_SAVE'									=> 'Klicken Sie auf , um das Modul & zip bauen',
 'LBL_CLICK_DOWNLOAD'								=> 'Klicken Sie auf , um das Modul Zip-Download-',
-'LBL_ENTER_MODULENAME'								=> 'Geben ursprï¿½nglichen Modulnamen ohne Leerzeichen und Sonder charecter',
-'LBL_ENTER_MODULELABEL'								=> 'Geben Moduletikett <br/> ( * Leerzeichen zwischen den Wï¿½rtern erlaubt in )',
-'SELECT_PARENT_TAB'									=> 'Wï¿½hlen Sie die Registerkarte Mutter unter denen Modul sollte aufgefï¿½hrt werden',
+'LBL_ENTER_MODULENAME'								=> 'Geben ursprünglichen Modulnamen ohne Leerzeichen und Sonder charecter',
+'LBL_ENTER_MODULELABEL'								=> 'Geben Moduletikett <br/> ( * Leerzeichen zwischen den Wörtern erlaubt in )',
+'SELECT_PARENT_TAB'									=> 'Wählen Sie die Registerkarte Mutter unter denen Modul sollte aufgeführt werden',
 'SELECT_ENTITY_IDENTIFIER'							=> '<ul>
-<li> Wï¿½hlen Entity Identifier fï¿½r das Modul. </ li>
-<li> Zum Beispiel: - Name der Organisation fungieren als eine Einheits-Identifikation fï¿½r die Organisation des Moduls </ li> .
+<li> Wählen Entity Identifier für das Modul. </ li>
+<li> Zum Beispiel: - Name der Organisation fungieren als eine Einheits-Identifikation für die Organisation des Moduls </ li> .
 <li> Um ein Feld als Einheit identifer das Feld sollte manditory Feld und </ li> sein qualifizieren
-sollte auch ein Filterfeld aller Filter auf der Liste ansehen zu kï¿½nnen.
+sollte auch ein Filterfeld aller Filter auf der Liste ansehen zu können.
 <li> Wenn Sie ein Feld als Einheit Bezeichner unter zwei Arten beziehen zu machen : -
 <ol>
-<li> Fï¿½r exsisting Feld Klicken Sie auf Bearbeiten und ï¿½berprï¿½fen Pflichtfeld und Filterfeld ein und klicken Sie auf Speichern. </ li>
-<li > Ein neues Feld Schaffung ï¿½berprï¿½fen sowohl das Kontrollkï¿½stchen fï¿½r Pflichtfeld und Filterfeld . </ li>
+<li> Für exsisting Feld Klicken Sie auf Bearbeiten und überprüfen Pflichtfeld und Filterfeld ein und klicken Sie auf Speichern. </ li>
+<li > Ein neues Feld Schaffung überprüfen sowohl das Kontrollkästchen für Pflichtfeld und Filterfeld . </ li>
 </ ol>
 </ li>
-<li> Refrence Feld kann nicht Enitity Identifier fï¿½r Strommodul so deshalb seine exculded sein . </ li>
+<li> Refrence Feld kann nicht Enitity Identifier für Strommodul so deshalb seine exculded sein . </ li>
 </ ul>',
 'LBL_MODULE_FIELDS_LAYOUT'							=> 'Modul konfigurieren Block- und Feldlayout',
 'LBL_MODULE_RELATED_TAB'							=> 'Konfigurieren Module Related Tab Liste',
-'LBL_SAVE_SEQUENCE'									=> 'Klicken Sie , um das modifizierte arragement der Felder und Blï¿½cke speichern',
+'LBL_SAVE_SEQUENCE'									=> 'Klicken Sie , um das modifizierte arragement der Felder und Blöcke speichern',
 'LBL_EDIT_ATTRIBUTES'								=> 'Klicken Sie auf das Feld Attribute bearbeiten',
-'LBL_DELETE_FIELD'									=> 'Klicken Sie auf das aktuelle Feld zu lï¿½schen',
-'LBL_NEW_FIELD'										=> 'Klicken Sie auf das neue Feld hinzufï¿½gen',
-'LBL_DELETE_FIELD'									=> 'Klicken Sie auf das Feld zu lï¿½schen',
+'LBL_DELETE_FIELD'									=> 'Klicken Sie auf das aktuelle Feld zu löschen',
+'LBL_NEW_FIELD'										=> 'Klicken Sie auf das neue Feld hinzufügen',
+'LBL_DELETE_FIELD'									=> 'Klicken Sie auf das Feld zu löschen',
 'LBL_LEAD_WARNING'									=> 'Achtung!
 <ul>
-<li> Wenn Sie dieses Modul zum anderen Modul beziehen kann eine Inkonsistenz in einigen Fï¿½llen zu verlassen. </ li>
-<li> Wenn eine Bleisatzzu anderen Modulsatzes in diesem Fall konvertiert erhalten Sie unter Umstï¿½nden Inkonsistenz . </ li>
-<li> Wenn Sie erhalten eine Inkonsistenz fï¿½hren Sie dann kï¿½nnen wir Ihnen bei der Lï¿½sung der Probleme zu helfen. </ li>
-<li> Fï¿½r kostenpflichtige Dienste kindly mailen Sie uns an : - sales@technokrafts.com </ li>
+<li> Wenn Sie dieses Modul zum anderen Modul beziehen kann eine Inkonsistenz in einigen Fällen zu verlassen. </ li>
+<li> Wenn eine Bleisatzzu anderen Modulsatzes in diesem Fall konvertiert erhalten Sie unter Umständen Inkonsistenz . </ li>
+<li> Wenn Sie erhalten eine Inkonsistenz führen Sie dann können wir Ihnen bei der Lösung der Probleme zu helfen. </ li>
+<li> Für kostenpflichtige Dienste kindly mailen Sie uns an : - sales@technokrafts.com </ li>
 </ ul>',
-'LBL_SELECT_INFO'									=> 'Aktivieren Sie Select-Taste , lassen Sie wï¿½hlen und beziehen bestehende Datensï¿½tze',
-'LBL_ADD_INFO'										=> 'Aktivieren Sie auf Hinzufï¿½gen , ermï¿½glichen die Erstellung und ï¿½ber neue Rekorde',
+'LBL_SELECT_INFO'									=> 'Aktivieren Sie Select-Taste , lassen Sie wählen und beziehen bestehende Datensätze',
+'LBL_ADD_INFO'										=> 'Aktivieren Sie auf Hinzufügen , ermöglichen die Erstellung und über neue Rekorde',
 /*TOOLTIPS*/
-'LBL_MODULE_INSTALL_NOTES'							=> 'Wenn Sie ï¿½ber die dowloaded Module installiert sind, bitte nehmen Sie Sicherungskopie der Datenbank fï¿½r sicheren Seite.',
+'LBL_MODULE_INSTALL_NOTES'							=> 'Wenn Sie über die dowloaded Module installiert sind, bitte nehmen Sie Sicherungskopie der Datenbank für sicheren Seite.',
 'LBL_MODULE_INSTALL_NOTES1'							=> 'Nachdem Sie das neue Modul in Ihrem CRM installieren, konfigurieren Sie bitte "Modul Sequenznummerierung "
 via Admin Benutzer im Modul-Einstellungen.',
 'LBL_ZIP_ARCHIVE_MISSING'=>'ZIP-Archiv-Paket fehlt auf Ihrem Server. Bitte installieren Sie das Paket.',
@@ -330,10 +330,10 @@ via Admin Benutzer im Modul-Einstellungen.',
 'LBL_PACAKAGE_ERROR'=>'Folgen Pacakges Fehlen..!',
 'LBL_PACAKAGE_MISSING'=>'Paketfehler..!',
 'LBL_PACKAGE_INST_STEP'=>'Paketinstallationsschritte :',
-'LBL_PACKAGE_INST_STEP1'=>'1.Bitte ï¿½ndern Sie Ihre php.ini Datei.',
-'LBL_PACKAGE_INST_STEP2'=>'2.Fï¿½gen Sie extension = zip.so Ihrer php.ini Datei hinzu, um das ZIP pacakge zu aktivieren.'	,
-'LBL_PACKAGE_INST_STEP3'=>'3.Folgen Sie dem Link http://php.net/manual/de/dom.setup.php fï¿½r DOM Setup.',
-'LBL_PACKAGE_INST_STEP4'=>'4.Wenden Sie sich an Ihren Serveradministrator, wenn Sie die pacakges nicht aktivieren kï¿½nnen.',
+'LBL_PACKAGE_INST_STEP1'=>'1.Bitte ändern Sie Ihre php.ini Datei.',
+'LBL_PACKAGE_INST_STEP2'=>'2.Fügen Sie extension = zip.so Ihrer php.ini Datei hinzu, um das ZIP pacakge zu aktivieren.'	,
+'LBL_PACKAGE_INST_STEP3'=>'3.Folgen Sie dem Link http://php.net/manual/de/dom.setup.php für DOM Setup.',
+'LBL_PACKAGE_INST_STEP4'=>'4.Wenden Sie sich an Ihren Serveradministrator, wenn Sie die pacakges nicht aktivieren können.',
 'LBL_REFRESH'=> 'Aktualisieren',
 'LBL_TECH_LICENCE'	=>
 '***************************************************************************************************************************
@@ -344,11 +344,11 @@ via Admin Benutzer im Modul-Einstellungen.',
  *  Supported browsers  : Internet Explorer 7 or higher, Mozilla Firefox 3.0 or higher, Google Chrome, Safari
  ****************************************************************************************************************************
 
- Allgemeine Geschï¿½ftsbedingungen:
+ Allgemeine Geschäftsbedingungen:
 
- Keine Garantie . Die Software wird "wie besehen " ohne Gewï¿½hrleistung irgendeiner Art, weder ausdrï¿½cklich
- oder implizit, einschlieï¿½lich, ohne Einschrï¿½nkung konkludente Gewï¿½hrleistungen der Bedingung , ununterbrochene
- Nutzung , Marktfï¿½higkeit, Eignung fï¿½r einen bestimmten Zweck oder Nichtverletzung.
+ Keine Garantie . Die Software wird "wie besehen " ohne Gewährleistung irgendeiner Art, weder ausdrücklich
+ oder implizit, einschließlich, ohne Einschränkung konkludente Gewährleistungen der Bedingung , ununterbrochene
+ Nutzung , Marktfähigkeit, Eignung für einen bestimmten Zweck oder Nichtverletzung.
 
  LIZENZ
 
@@ -360,11 +360,11 @@ via Admin Benutzer im Modul-Einstellungen.',
 
  Diese Lizenz gibt dem Inhaber Recht zur Installation ##moduleLable## auf ONE vtiger CRM Installation.
 
- Der Lizenzinhaber darf ï¿½nderungen an dem zu machen ##moduleLable## Quellen, aber in keinen
- Veranstaltung werden die ursprï¿½nglichen Urheberrechtsinhaber dieser Bibliothek fï¿½r Maï¿½nahmen verantwortlich gemacht werden
- oder Aktionen durch Verï¿½nderungen der Quelle ergeb.
+ Der Lizenzinhaber darf Änderungen an dem zu machen ##moduleLable## Quellen, aber in keinen
+ Veranstaltung werden die ursprünglichen Urheberrechtsinhaber dieser Bibliothek für Maßnahmen verantwortlich gemacht werden
+ oder Aktionen durch Veränderungen der Quelle ergeb.
 
- Der Lizenzinhaber ist nicht verpflichtet, zu verï¿½ffentlichen oder anderweitig verfï¿½gbar zu machen Software
+ Der Lizenzinhaber ist nicht verpflichtet, zu veröffentlichen oder anderweitig verfügbar zu machen Software
  in Verbindung mit Module Builder verwendet.
 
  Der Lizenzinhaber darf nicht neu verteilen die Bibliothek auf sie \s eigenen oder Versionen davon
@@ -373,10 +373,10 @@ via Admin Benutzer im Modul-Einstellungen.',
  ##moduleLable## Lizenz erlaubt nicht die Bibliothek, um als Teil einer anderen umverteilt werden
  Produkt.
 
- Die Lizenz kann auf einen anderen vtiger CRM Installation nur mit vorheriger ï¿½bertragen werden
+ Die Lizenz kann auf einen anderen vtiger CRM Installation nur mit vorheriger übertragen werden
  schriftliche Genehmigung.
 
- Der Wortlaut dieser Lizenz kï¿½nnen ohne vorherige Ankï¿½ndigung fï¿½r zukï¿½nftige Versionen von ï¿½ndern ##moduleLable##.',
+ Der Wortlaut dieser Lizenz können ohne vorherige Ankündigung für zukünftige Versionen von ändern ##moduleLable##.',
 /*TOOLTIPS*/
 
 //Footer
@@ -385,22 +385,22 @@ via Admin Benutzer im Modul-Einstellungen.',
 'COPYRIGHT'											=> 'Powered by :: Technokrafts Labs Pvt Ltd',
 'LBL_MODULE_VERSION'								=> '1.2',
 'LBL_CLICK_TO_UNINSTALL'							=> 'Klicken Sie auf Deinstallieren.',
-'LBL_MODULE_PERMANANT_DELETE'						=> 'Das Modul wird deinstalliert werden und dauerhaft aus der Datenbank gelï¿½scht.',
+'LBL_MODULE_PERMANANT_DELETE'						=> 'Das Modul wird deinstalliert werden und dauerhaft aus der Datenbank gelöscht.',
 );
 //JS_CUSTOM_BLOCK_ADDED
 $jsLanguageStrings = array(
 	'JS_BLOCK_VISIBILITY_SHOW' 						=> 'Block -Show aktiviert',
 	'JS_BLOCK_VISIBILITY_HIDE' 						=> 'Block hide aktiviert',
-	'JS_CUSTOM_BLOCK_ADDED' 						=> 'New -Block hinzugefï¿½gt',
+	'JS_CUSTOM_BLOCK_ADDED' 						=> 'New -Block hinzugefügt',
 	'JS_BLOCK_SEQUENCE_UPDATED' 					=> 'Blocks Sequence aktualisiert',
-	'JS_SELECTED_FIELDS_REACTIVATED' 				=> 'Ausgewï¿½hlte Felder reaktiviert',
+	'JS_SELECTED_FIELDS_REACTIVATED' 				=> 'Ausgewählte Felder reaktiviert',
 	'JS_FIELD_DETAILS_SAVED' 						=> 'Feld Details Gespeichert',
-	'JS_CUSTOM_BLOCK_DELETED' 						=> 'Neuer Baustein gelï¿½scht',
-	'JS_CUSTOM_FIELD_ADDED' 						=> 'Neues Feld hinzugefï¿½gt',
-	'JS_CUSTOM_FIELD_DELETED' 						=> 'Neues Feld Gelï¿½scht',
-	'JS_LENGTH_SHOULD_BE_LESS_THAN_EQUAL_TO' 		=> 'Lï¿½nge von weniger als oder gleich sein sollte,',
+	'JS_CUSTOM_BLOCK_DELETED' 						=> 'Neuer Baustein gelöscht',
+	'JS_CUSTOM_FIELD_ADDED' 						=> 'Neues Feld hinzugefügt',
+	'JS_CUSTOM_FIELD_DELETED' 						=> 'Neues Feld Gelöscht',
+	'JS_LENGTH_SHOULD_BE_LESS_THAN_EQUAL_TO' 		=> 'Länge von weniger als oder gleich sein sollte,',
 	'JS_PLEASE_ENTER_NUMBER_IN_RANGE_2TO5'			=> 'Dezimal sollte im Bereich von 2 bis 5',
-	'JS_SAVE_THE_CHANGES_TO_UPDATE_FIELD_SEQUENCE' 	=> 'Speichern Sie die ï¿½nderungen an Feldfolgeaktualisieren',
+	'JS_SAVE_THE_CHANGES_TO_UPDATE_FIELD_SEQUENCE' 	=> 'Speichern Sie die Änderungen an Feldfolgeaktualisieren',
 	'JS_RELATED_INFO_SAVED' 						=> 'Related Info Gespeichert',
 	'JS_BLOCK_NAME_EXISTS' 							=> 'Baustein Name ist bereits vorhanden',
 	'JS_NO_HIDDEN_FIELDS_EXISTS' 					=> 'Keine Inaktive Felder',
@@ -413,24 +413,24 @@ $jsLanguageStrings = array(
 	'JS_RE_SAVE' 									=> 'Bitte speichern Modul Vor herunterladen',
 	'JS_PRECHECK_DOWNLOAD' 							=> 'Please Wait Pre-check file download',
 	'JS_SOMETHING_WENT_WRONG' 						=> 'Bitte warten Pre- Check -Datei herunterladen',
-	'JS_ADD_FILTER' 								=> 'Bitte ateast einen Block und ein Feld innerhalb des Blocks mit manditory und Filtereigenschaft hinzufï¿½gen',
-	'JS_ENTITY_REQ' 								=> 'Bitte wï¿½hlen Entity Identifier Feld',
+	'JS_ADD_FILTER' 								=> 'Bitte ateast einen Block und ein Feld innerhalb des Blocks mit manditory und Filtereigenschaft hinzufügen',
+	'JS_ENTITY_REQ' 								=> 'Bitte wählen Entity Identifier Feld',
 	'JS_ARE_YOU_SURE' 								=> 'Sind Sie sicher, yo wollen Modul zu retten?',
 	'JS_ALPHABETS_ONLY' 							=> 'Bitte verwenden Sie nur Buchstaben (Special Charecters oder Symbole nicht erlaubt)',
 	'JS_BLOCK_EMPTY1' 								=> 'Kann nicht fortgesetzt werden ! Der Block : -"',
-	'JS_BLOCK_EMPTY2' 								=> '" ist leer. Bitte lï¿½schen Sie Block oder fï¿½gen Sie ein Feld zu blockieren.',
-	'JS_LENGTH_SHOULD_BE_GREATER_THAN_EQUAL_TO' 	=> 'Die Lï¿½nge sollte grï¿½ï¿½er als oder gleich Dezimalstellen sein',
-	'JS_SEQUENCE_FIRST' 							=> 'Sequenz nicht gespeichert ! Bitte bewahren Sie den Sequence Zunï¿½chst , indem Sie auf Schaltflï¿½che "Speichern Feldreihenfolge "',
+	'JS_BLOCK_EMPTY2' 								=> '" ist leer. Bitte löschen Sie Block oder fügen Sie ein Feld zu blockieren.',
+	'JS_LENGTH_SHOULD_BE_GREATER_THAN_EQUAL_TO' 	=> 'Die Länge sollte größer als oder gleich Dezimalstellen sein',
+	'JS_SEQUENCE_FIRST' 							=> 'Sequenz nicht gespeichert ! Bitte bewahren Sie den Sequence Zunächst , indem Sie auf Schaltfläche "Speichern Feldreihenfolge "',
 	'JS_PLEASE_WAIT_MODULE_INITIALIZE'				=> 'Bitte warten ! Initalizing die Module Builing Prozess',
 	'JS_PLEASE_MODULE_INITIALIZE'					=> 'Module erfolgreich initialisiert',
-	'JS_PLEASE_MODULE_INITIALIZE_FAIL'				=> 'Fehler beim Modul initialisieren . Bitte Cache lï¿½schen.',
+	'JS_PLEASE_MODULE_INITIALIZE_FAIL'				=> 'Fehler beim Modul initialisieren . Bitte Cache löschen.',
 	'JS_PLEASE_WAIT'								=> 'Bitte warten !',
-	'JS_EMPTY_BLOCK_FIELD'							=> 'Kann nicht fortgesetzt werden ! Bitte fï¿½gen Sie atleast einen Block und ein Feld in dem Block',
-	'JS_ENTER_MODULE_NAME' 							=> 'Geben ursprï¿½nglichen Modulnamen ohne Leerzeichen und Sonder charecter',//
-	'JS_ENTER_MODULE_LABLE' 						=> 'Geben Moduletikett <br/> ( Leerzeichen zwischen den Wï¿½rtern erlaubt in )',
+	'JS_EMPTY_BLOCK_FIELD'							=> 'Kann nicht fortgesetzt werden ! Bitte fügen Sie atleast einen Block und ein Feld in dem Block',
+	'JS_ENTER_MODULE_NAME' 							=> 'Geben ursprünglichen Modulnamen ohne Leerzeichen und Sonder charecter',//
+	'JS_ENTER_MODULE_LABLE' 						=> 'Geben Moduletikett <br/> ( Leerzeichen zwischen den Wörtern erlaubt in )',
 	'JS_ENTER_VALID_MODULE_NAME' 					=> 'Bitte verwenden Sie nur Buchstaben (Special Charecters oder Symbole nicht erlaubt)',
 	'JS_ENTER_VALID_MODULE_LABLE'					=> 'Bitte verwenden Sie nur Buchstaben (Special Charecters oder Symbole nicht erlaubt)',
-	'JS_SELECT_PARENT_MODULE' 						=> 'Wï¿½hlen Sie die Registerkarte Mutter unter denen Modul sollte aufgefï¿½hrt werden',
+	'JS_SELECT_PARENT_MODULE' 						=> 'Wählen Sie die Registerkarte Mutter unter denen Modul sollte aufgeführt werden',
 	'JS_LBL_CREATE_CUSTOM_FIELD' 					=> 'Neues Feld',
 	'JS_LBL_EDIT_FIELD' 							=> 'Bearbeiten Feldtyp: ',
 );
