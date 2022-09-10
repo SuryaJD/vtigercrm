@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<schema>
+	<tables>
+		<table>
+			<name>vtiger_milestone</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_milestone` (`milestoneid` int(11) NOT NULL, `milestoneno` varchar(100) default NULL, `milestone_tks_title` varchar(255) default NULL ,`milestone_tks_defination` varchar(250) default NULL ,`milestone_tks_tranch` varchar(100) default NULL ,`milestone_tks_documentone` varchar(100) default NULL ,`milestone_tks_documenttwo` varchar(100) default NULL ,`milestone_tks_documentthree` varchar(100) default NULL ,`milestone_tks_documentfour` varchar(100) default NULL ,`milestone_tks_documentfive` varchar(100) default NULL ,`milestone_tks_documentsix` varchar(100) default NULL ,`milestone_tks_aaastatus` varchar(100) default NULL ,`milestone_tks_aaaremark` varchar(250) default NULL ,`milestone_tks_camstatus` varchar(100) default NULL ,`milestone_tks_camremark` varchar(250) default NULL   , PRIMARY KEY (`milestoneid`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+		<table>
+			<name>vtiger_milestonecf</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_milestonecf` (`milestoneid` int(11) NOT NULL, PRIMARY KEY (`milestoneid`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+		<table>
+			<name>vtiger_milestone_user_field</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_milestone_user_field` (`recordid` int(25) NOT NULL, `userid` int(25) NOT NULL, `starred` varchar(100) default NULL , KEY (`vtiger_milestone_user_field`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+	</tables>
+</schema>

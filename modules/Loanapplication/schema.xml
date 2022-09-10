@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<schema>
+	<tables>
+		<table>
+			<name>vtiger_loanapplication</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_loanapplication` (`loanapplicationid` int(11) NOT NULL, `loanapplicationno` varchar(100) default NULL, `loanapplication_tks_loanapplic` varchar(255) default NULL   , PRIMARY KEY (`loanapplicationid`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+		<table>
+			<name>vtiger_loanapplicationcf</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_loanapplicationcf` (`loanapplicationid` int(11) NOT NULL, PRIMARY KEY (`loanapplicationid`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+		<table>
+			<name>vtiger_loanapplication_user_field</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_loanapplication_user_field` (`recordid` int(25) NOT NULL, `userid` int(25) NOT NULL, `starred` varchar(100) default NULL , KEY (`vtiger_loanapplication_user_field`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+	</tables>
+</schema>
