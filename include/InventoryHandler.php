@@ -66,14 +66,6 @@ function NotifySnsAboutStatusChange($entity)
 }
 function NotifySnsAboutLoanApplication($entity)
 {
-	// echo "<pre>";
-
-	// print_r($entity);
-
-	// echo "</pre>";
-
-	// die();
-
 	try{
 		$myfile = fopen("curl_loan.txt", "w") or die("Unable to open file!");
 		fwrite($myfile, json_encode($entity->getData()));
@@ -87,6 +79,48 @@ function NotifySnsAboutLoanApplication($entity)
 
 	try {
 		$url = "https://crm-api.aerem.co/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.approved";
+		$ch = curl_init($url);
+		curl_setopt($ch, CURLOPT_HEADER, false);
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+		curl_setopt($ch, CURLOPT_POST, true);
+		curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($entity->getData()));
+		$contents = curl_exec($ch);
+		if (curl_errno($ch)) {
+			$error_msg = curl_error($ch);
+			$myfile = fopen("curl_loan_err.txt", "w") or die("Unable to open file!");
+			fwrite($myfile, $error_msg);
+			fclose($myfile);
+		}else {
+			$myfile = fopen("curl_loan_success.txt", "w") or die("Unable to open file!");
+			fwrite($myfile, $contents);
+			fclose($myfile);
+		}
+		curl_close($ch);
+	} catch (\Throwable $th) {
+			error_log($th->getMessage());
+	}
+}
+
+
+function NotifySnsAboutLoanApplicationApprovalByCam($entity)
+{
+	try{
+		$myfile = fopen("curl_loan.txt", "w") or die("Unable to open file!");
+		fwrite($myfile, json_encode($entity->getData()));
+		fclose($myfile);
+	}catch(\Throwable $th){
+		$myfile = fopen("curl_loan_err.txt", "w") or die("Unable to open file!");
+		fwrite($myfile, $th->getMessage());
+		fclose($myfile);
+	}
+
+
+	try {
+<<<<<<< HEAD
+		$url = "https://crm-api.aerem.co/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.approved";
+=======
+		$url = "http://crm-api.aerem.co/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.camApproved";
+>>>>>>> 582334e2dcfbaef9e0f7e09bfbd305e1f1dbbe6b
 		$ch = curl_init($url);
 		curl_setopt($ch, CURLOPT_HEADER, false);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
