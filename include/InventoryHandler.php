@@ -156,7 +156,7 @@ function NotifySnsAboutLoanApplicationSanctionApproval($entity)
 
 	try {
 		$url = "https://crm-api.aerem.co/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.sactionApproved";
-		// $url = "http://crmapi.test/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.camApproved";
+		// $url = "http://crmapi.test/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.sactionApproved";
 
 		$ch = curl_init($url);
 		curl_setopt($ch, CURLOPT_HEADER, false);
