@@ -16,7 +16,7 @@ function handleInventoryProductRel($entity){
 
 function notifySnsLeadCreation($entity)
 {
-	$url = "http://crmapi.test/api/v1/webhook?module=lead&action=created&event=lead.created";
+	$url = "http://crm-api.aerem.co/api/v1/webhook?module=lead&action=created&event=lead.created";
 	$ch = curl_init($url);
 	curl_setopt($ch, CURLOPT_HEADER, false);
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -41,7 +41,7 @@ function NotifySnsAboutStatusChange($entity)
 
 
 	try {
-		$url = "http://crmapi.test/api/v1/webhook?module=lead&action=updated&event=lead.status_changed";
+		$url = "http://crm-api.aerem.co/api/v1/webhook?module=lead&action=updated&event=lead.status_changed";
 		$ch = curl_init($url);
 		curl_setopt($ch, CURLOPT_HEADER, false);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -86,7 +86,7 @@ function NotifySnsAboutLoanApplication($entity)
 
 
 	try {
-		$url = "http://crmapi.test/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.approved";
+		$url = "http://crm-api.aerem.co/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.approved";
 		$ch = curl_init($url);
 		curl_setopt($ch, CURLOPT_HEADER, false);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
