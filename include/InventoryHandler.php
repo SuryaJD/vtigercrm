@@ -16,7 +16,7 @@ function handleInventoryProductRel($entity){
 
 function notifySnsLeadCreation($entity)
 {
-	$url = "http://crmapi.test/api/v1/webhook";
+	$url = "http://crmapi.test/api/v1/webhook?module=lead&action=created&event=lead.created";
 	$ch = curl_init($url);
 	curl_setopt($ch, CURLOPT_HEADER, false);
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -41,7 +41,7 @@ function NotifySnsAboutStatusChange($entity)
 
 
 	try {
-		$url = "https://crm-api.aerem.co/api/v1/webhook";
+		$url = "http://crmapi.test/api/v1/webhook?module=lead&action=updated&event=lead.status_changed";
 		$ch = curl_init($url);
 		curl_setopt($ch, CURLOPT_HEADER, false);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -66,19 +66,27 @@ function NotifySnsAboutStatusChange($entity)
 }
 function NotifySnsAboutLoanApplication($entity)
 {
+	// echo "<pre>";
+
+	// print_r($entity);
+
+	// echo "</pre>";
+
+	// die();
+
 	try{
-		$myfile = fopen("curl_entity.txt", "w") or die("Unable to open file!");
+		$myfile = fopen("curl_loan.txt", "w") or die("Unable to open file!");
 		fwrite($myfile, json_encode($entity->getData()));
 		fclose($myfile);
 	}catch(\Throwable $th){
-		$myfile = fopen("curl_entity_errr.txt", "w") or die("Unable to open file!");
+		$myfile = fopen("curl_loan_err.txt", "w") or die("Unable to open file!");
 		fwrite($myfile, $th->getMessage());
 		fclose($myfile);
 	}
 
 
 	try {
-		$url = "https://crm-api.aerem.co/api/v1/webhook";
+		$url = "http://crmapi.test/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.approved";
 		$ch = curl_init($url);
 		curl_setopt($ch, CURLOPT_HEADER, false);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -87,11 +95,11 @@ function NotifySnsAboutLoanApplication($entity)
 		$contents = curl_exec($ch);
 		if (curl_errno($ch)) {
 			$error_msg = curl_error($ch);
-			$myfile = fopen("curl_error.txt", "w") or die("Unable to open file!");
+			$myfile = fopen("curl_loan_err.txt", "w") or die("Unable to open file!");
 			fwrite($myfile, $error_msg);
 			fclose($myfile);
 		}else {
-			$myfile = fopen("curl_success.txt", "w") or die("Unable to open file!");
+			$myfile = fopen("curl_loan_success.txt", "w") or die("Unable to open file!");
 			fwrite($myfile, $contents);
 			fclose($myfile);
 		}
