@@ -116,15 +116,7 @@ function NotifySnsAboutLoanApplicationApprovalByCam($entity)
 
 
 	try {
-<<<<<<< HEAD
-<<<<<<< HEAD
-		$url = "https://crm-api.aerem.co/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.approved";
-=======
-		$url = "http://crm-api.aerem.co/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.camApproved";
->>>>>>> 582334e2dcfbaef9e0f7e09bfbd305e1f1dbbe6b
-=======
 		$url = "https://crm-api.aerem.co/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.camApproved";
->>>>>>> 88b3bdfd55e683afb94c57db02da9800f0af2db3
 		$ch = curl_init($url);
 		curl_setopt($ch, CURLOPT_HEADER, false);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
