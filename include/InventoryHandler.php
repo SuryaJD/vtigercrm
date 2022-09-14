@@ -179,3 +179,47 @@ function NotifySnsAboutLoanApplicationSanctionApproval($entity)
 			error_log($th->getMessage());
 	}
 }
+
+function TranchOneApproved($entity)
+{
+	echo "<pre>";
+
+	print_r($entity);
+
+	die;
+
+	try{
+		$myfile = fopen("curl_loan.txt", "w") or die("Unable to open file!");
+		fwrite($myfile, json_encode($entity->getData()));
+		fclose($myfile);
+	}catch(\Throwable $th){
+		$myfile = fopen("curl_loan_err.txt", "w") or die("Unable to open file!");
+		fwrite($myfile, $th->getMessage());
+		fclose($myfile);
+	}
+
+
+	try {
+		$url = "https://crm-api.aerem.co/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.tranchOneApproved";
+
+		$ch = curl_init($url);
+		curl_setopt($ch, CURLOPT_HEADER, false);
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+		curl_setopt($ch, CURLOPT_POST, true);
+		curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($entity->getData()));
+		$contents = curl_exec($ch);
+		if (curl_errno($ch)) {
+			$error_msg = curl_error($ch);
+			$myfile = fopen("curl_loan_err.txt", "w") or die("Unable to open file!");
+			fwrite($myfile, $error_msg);
+			fclose($myfile);
+		}else {
+			$myfile = fopen("curl_loan_success.txt", "w") or die("Unable to open file!");
+			fwrite($myfile, $contents);
+			fclose($myfile);
+		}
+		curl_close($ch);
+	} catch (\Throwable $th) {
+			error_log($th->getMessage());
+	}
+}
