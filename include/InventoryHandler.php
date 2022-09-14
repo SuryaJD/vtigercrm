@@ -66,6 +66,7 @@ function NotifySnsAboutStatusChange($entity)
 }
 function NotifySnsAboutLoanApplication($entity)
 {
+
 	try{
 		$myfile = fopen("curl_loan.txt", "w") or die("Unable to open file!");
 		fwrite($myfile, json_encode($entity->getData()));
@@ -79,6 +80,8 @@ function NotifySnsAboutLoanApplication($entity)
 
 	try {
 		$url = "https://crm-api.aerem.co/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.approved";
+		// $url = "http://crmapi.test/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.approved";
+
 		$ch = curl_init($url);
 		curl_setopt($ch, CURLOPT_HEADER, false);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -182,12 +185,6 @@ function NotifySnsAboutLoanApplicationSanctionApproval($entity)
 
 function TranchOneApproved($entity)
 {
-	echo "<pre>";
-
-	print_r($entity);
-
-	die;
-
 	try{
 		$myfile = fopen("curl_loan.txt", "w") or die("Unable to open file!");
 		fwrite($myfile, json_encode($entity->getData()));
