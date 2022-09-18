@@ -105,7 +105,7 @@ function NotifySnsAboutLoanApplication($entity)
 }
 
 
-function NotifySnsAboutLoanApplicationApprovalByCam($entity)
+function NotifySnsAboutLoanApplicationStatusChangeByCam($entity)
 {
 	try{
 		$myfile = fopen("curl_loan.txt", "w") or die("Unable to open file!");
@@ -117,10 +117,9 @@ function NotifySnsAboutLoanApplicationApprovalByCam($entity)
 		fclose($myfile);
 	}
 
-
 	try {
-		$url = "https://crm-api.aerem.co/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.camApproved";
-		// $url = "http://crmapi.test/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.camApproved";
+		$url = "https://crm-api.aerem.co/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.camStatusChanged";
+		// $url = "http://crmapi.test/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.canStatusChanged";
 
 		$ch = curl_init($url);
 		curl_setopt($ch, CURLOPT_HEADER, false);
@@ -144,7 +143,7 @@ function NotifySnsAboutLoanApplicationApprovalByCam($entity)
 	}
 }
 
-function NotifySnsAboutLoanApplicationSanctionApproval($entity)
+function NotifySnsAboutLoanApplicationSanctionStatusChangeByCam($entity)
 {
 	try{
 		$myfile = fopen("curl_loan.txt", "w") or die("Unable to open file!");
@@ -158,8 +157,8 @@ function NotifySnsAboutLoanApplicationSanctionApproval($entity)
 
 
 	try {
-		$url = "https://crm-api.aerem.co/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.sactionApproved";
-		// $url = "http://crmapi.test/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.sactionApproved";
+		$url = "https://crm-api.aerem.co/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.sactionStatusChangeByCam";
+		// $url = "http://crmapi.test/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.sactionStatusChangeByCam";
 
 		$ch = curl_init($url);
 		curl_setopt($ch, CURLOPT_HEADER, false);
