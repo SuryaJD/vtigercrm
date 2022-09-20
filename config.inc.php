@@ -45,11 +45,11 @@ $HELPDESK_SUPPORT_EMAIL_REPLY_ID = $HELPDESK_SUPPORT_EMAIL_ID;
       db_name
 */
 
-$dbconfig['db_server'] = 'main-db.cc8dtztnflr3.ap-south-1.rds.amazonaws.com';
-$dbconfig['db_port'] = ':3306';
-$dbconfig['db_username'] = 'Enclosure0281';
-$dbconfig['db_password'] = 'NC&j&L62c&g5';
-$dbconfig['db_name'] = 'vtiger_online';
+$dbconfig['db_server'] = 'aerem-mysql.cclfl6prydxu.ap-south-1.rds.amazonaws.com';
+$dbconfig['db_port'] = ':3500';
+$dbconfig['db_username'] = 'admin';
+$dbconfig['db_password'] = 'Aeremcrm246';
+$dbconfig['db_name'] = 'vtiger_prod';
 $dbconfig['db_type'] = 'mysqli';
 $dbconfig['db_status'] = 'true';
 
