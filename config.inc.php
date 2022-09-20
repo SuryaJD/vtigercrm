@@ -14,6 +14,7 @@
 ********************************************************************************/
 
 
+ini_set('max_input_vars', 3000);
 // Adjust error_reporting favourable to deployment.
 version_compare(PHP_VERSION, '5.5.0') <= 0 ? error_reporting(E_WARNING & ~E_NOTICE & ~E_DEPRECATED & E_ERROR) : error_reporting(E_WARNING & ~E_NOTICE & ~E_DEPRECATED  & E_ERROR & ~E_STRICT); // PRODUCTION
 // ini_set('display_errors','on'); version_compare(PHP_VERSION, '5.5.0') <= 0 ? error_reporting(E_WARNING & ~E_NOTICE & ~E_DEPRECATED) : error_reporting(E_ALL & ~E_NOTICE & ~E_DEPRECATED & ~E_STRICT);   // DEBUGGING
@@ -45,13 +46,16 @@ $HELPDESK_SUPPORT_EMAIL_REPLY_ID = $HELPDESK_SUPPORT_EMAIL_ID;
       db_name
 */
 
+
+// /* Non-Production
 $dbconfig['db_server'] = 'main-db.cc8dtztnflr3.ap-south-1.rds.amazonaws.com';
-$dbconfig['db_port'] = ':3306';
+$dbconfig['db_port'] = ':3500';
 $dbconfig['db_username'] = 'Enclosure0281';
 $dbconfig['db_password'] = 'NC&j&L62c&g5';
 $dbconfig['db_name'] = 'vtiger_online';
 $dbconfig['db_type'] = 'mysqli';
 $dbconfig['db_status'] = 'true';
+// */
 
 // TODO: test if port is empty
 // TODO: set db_hostname dependending on db_type
@@ -81,13 +85,13 @@ $dbconfigoption['ssl'] = false;
 $host_name = $dbconfig['db_hostname'];
 
 // For XAMPP
-// $site_URL = 'http://localhost/aeremcrm/';
+$site_URL = 'http://localhost/aeremcrm/';
 
 // For Homestead
 // $site_URL = 'http://vtiger.test';
 
 // For Production
- $site_URL = 'https://crm.aerem.co';
+//  $site_URL = 'https://crm.aerem.co';
 
 // url for customer portal (Example: http://vtiger.com/portal)
 $PORTAL_URL = $site_URL.'/customerportal';

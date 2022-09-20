@@ -16,7 +16,7 @@ function handleInventoryProductRel($entity){
 
 function notifySnsLeadCreation($entity)
 {
-	$url = "https://crm-api.aerem.co/api/v1/webhook?module=lead&action=created&event=lead.created";
+	$url = "https://crm-api-dev.aerem.co/api/v1/webhook?module=lead&action=created&event=lead.created";
 	$ch = curl_init($url);
 	curl_setopt($ch, CURLOPT_HEADER, false);
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -41,7 +41,7 @@ function NotifySnsAboutStatusChange($entity)
 
 
 	try {
-		$url = "https://crm-api.aerem.co/api/v1/webhook?module=lead&action=updated&event=lead.status_changed";
+		$url = "https://crm-api-dev.aerem.co/api/v1/webhook?module=lead&action=updated&event=lead.status_changed";
 		$ch = curl_init($url);
 		curl_setopt($ch, CURLOPT_HEADER, false);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -79,8 +79,8 @@ function NotifySnsAboutLoanApplication($entity)
 
 
 	try {
-		$url = "https://crm-api.aerem.co/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.approved";
-		// $url = "http://crmapi.test/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.approved";
+		// $url = "https://crm-api-dev.aerem.co/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.approved";
+		$url = "http://crmapi.test/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.approved";
 
 		$ch = curl_init($url);
 		curl_setopt($ch, CURLOPT_HEADER, false);
@@ -118,7 +118,7 @@ function NotifySnsAboutLoanApplicationStatusChangeByCam($entity)
 	}
 
 	try {
-		$url = "https://crm-api.aerem.co/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.camStatusChanged";
+		$url = "https://crm-api-dev.aerem.co/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.camStatusChanged";
 		// $url = "http://crmapi.test/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.canStatusChanged";
 
 		$ch = curl_init($url);
@@ -157,7 +157,7 @@ function NotifySnsAboutLoanApplicationSanctionStatusChangeByCam($entity)
 
 
 	try {
-		$url = "https://crm-api.aerem.co/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.sactionStatusChangeByCam";
+		$url = "https://crm-api-dev.aerem.co/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.sactionStatusChangeByCam";
 		// $url = "http://crmapi.test/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.sactionStatusChangeByCam";
 
 		$ch = curl_init($url);
@@ -196,7 +196,7 @@ function TranchOneStatusChanged($entity)
 
 
 	try {
-		$url = "https://crm-api.aerem.co/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.TranchOneStatusChanged";
+		$url = "https://crm-api-dev.aerem.co/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.TranchOneStatusChanged";
 
 		$ch = curl_init($url);
 		curl_setopt($ch, CURLOPT_HEADER, false);
@@ -234,7 +234,7 @@ function TranchTwoStatusChanged($entity)
 
 
 	try {
-		$url = "https://crm-api.aerem.co/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.TranchTwoStatusChanged";
+		$url = "https://crm-api-dev.aerem.co/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.TranchTwoStatusChanged";
 
 		$ch = curl_init($url);
 		curl_setopt($ch, CURLOPT_HEADER, false);
@@ -272,7 +272,7 @@ function TranchThreeStatusChanged($entity)
 
 
 	try {
-		$url = "https://crm-api.aerem.co/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.TranchThreeStatusChanged";
+		$url = "https://crm-api-dev.aerem.co/api/v1/webhook?module=loan_application&action=updated&event=loanapplication.TranchThreeStatusChanged";
 
 		$ch = curl_init($url);
 		curl_setopt($ch, CURLOPT_HEADER, false);
